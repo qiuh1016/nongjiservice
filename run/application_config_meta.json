@@ -1,0 +1,301 @@
+{
+  "keys": "/Users/qiuhong/Desktop/egg/nongjiservice/config/config.default.js",
+  "middleware": "/Users/qiuhong/Desktop/egg/nongjiservice/config/config.default.js",
+  "mongoose": {
+    "client": {
+      "url": "/Users/qiuhong/Desktop/egg/nongjiservice/config/config.default.js",
+      "options": {
+        "useNewUrlParser": "/Users/qiuhong/Desktop/egg/nongjiservice/config/config.default.js",
+        "poolSize": "/Users/qiuhong/Desktop/egg/nongjiservice/config/config.default.js"
+      }
+    },
+    "url": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-mongoose/config/config.default.js",
+    "options": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-mongoose/config/config.default.js",
+    "loadModel": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-mongoose/config/config.default.js",
+    "app": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-mongoose/config/config.default.js",
+    "agent": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-mongoose/config/config.default.js"
+  },
+  "redis": {
+    "client": {
+      "port": "/Users/qiuhong/Desktop/egg/nongjiservice/config/config.default.js",
+      "host": "/Users/qiuhong/Desktop/egg/nongjiservice/config/config.default.js",
+      "password": "/Users/qiuhong/Desktop/egg/nongjiservice/config/config.default.js",
+      "db": "/Users/qiuhong/Desktop/egg/nongjiservice/config/config.default.js"
+    },
+    "default": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-redis/config/config.default.js",
+    "app": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-redis/config/config.default.js",
+    "agent": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-redis/config/config.default.js"
+  },
+  "session": {
+    "maxAge": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-session/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "multipart": {
+    "autoFields": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-multipart/config/config.default.js"
+  },
+  "development": {
+    "watchDirs": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-development/config/config.default.js"
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+  "name": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+    "version": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+    "description": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+    "private": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+    "dependencies": {
+      "egg": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+      "egg-mongoose": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+      "egg-redis": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "autod": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+      "webstorm-disable-index": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+      "stop": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+      "dev": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+      "debug": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+      "test": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+      "cov": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+      "lint": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+      "ci": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+      "autod": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+      "url": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+    "license": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+    "strict": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+      "depth": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+    "env": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+    "level": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxAge": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+    "logging": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+      "port": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/qiuhong/Desktop/egg/nongjiservice/node_modules/egg/config/config.default.js"
+}
